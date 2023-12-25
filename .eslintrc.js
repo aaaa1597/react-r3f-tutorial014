@@ -32,6 +32,6 @@ module.exports = {
         "react"
     ],
     "rules": {
-        "react/no-unknown-property": ['error', { ignore: ['css', "args", 'wireframe'] }],
+        "react/no-unknown-property": ['error', { ignore: ['css', "args", 'wireframe', 'visible', 'intensity', 'position', 'castShadow', 'castShadow', 'receiveShadow', 'rotation-x']}],
     }
 }
